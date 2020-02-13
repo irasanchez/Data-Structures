@@ -27,4 +27,4 @@ class Stack:
             return None  # Nothing is there
 
     def len(self):
-        pass
+        return self.size  # size keeps track of the amount of nodes which is the same thing as length
