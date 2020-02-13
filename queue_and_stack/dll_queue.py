@@ -21,4 +21,4 @@ class Queue:
             self.storage.remove_from_tail()
 
     def len(self):
-        pass
+        return self.size
