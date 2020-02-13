@@ -14,7 +14,6 @@ class Stack:
         self.size += 1
         # Use add_to_head method
         self.storage.add_to_head(value)
-        pass
 
     def pop(self):
         pass
