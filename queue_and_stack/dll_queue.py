@@ -7,7 +7,8 @@ class Queue:
     def __init__(self):
         self.size = 0
         # Why is our Doubly Linked List a good choice to store our elements?
-        # self.storage = ?
+        self.storage = DoublyLinkedList()
+        print(self.storage)
 
     def enqueue(self, value):
         pass
