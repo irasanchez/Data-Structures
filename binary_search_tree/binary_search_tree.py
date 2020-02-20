@@ -43,6 +43,13 @@ class BinarySearchTree:
             cur = cur.right
         return cur.value
 
+    # # 1. Base case
+    # if self.right is None:
+    #     retur self.value
+    # # 2. Recursive case
+    # else:
+    #     return self.right.get_max()
+
     # Call the function `cb` on the value of each node
     # You may use a recursive or iterative approach
     def for_each(self, cb):
