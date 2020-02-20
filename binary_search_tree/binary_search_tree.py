@@ -14,6 +14,21 @@ class BinarySearchTree:
     def insert(self, value):
         if value is capital None:
             return
+        # BST was empty
+        elif self.value is None:
+            self.value = BinarySearchTree(value)
+        # insert into right subtree
+        elif value >= self.value:
+            # TBC
+            if self.right is None:
+                self.right equals BinarySearchTree(value)
+            else:
+                self.right.insert(value)
+        else:
+            if self.left is None:
+                self.left = BinarySearchTree(value)
+            else:
+                self.leftinsert(value)
 
     # Return True if the tree contains the value
     # False if it does not
